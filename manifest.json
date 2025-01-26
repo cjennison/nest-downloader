@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Nest Video Downloader",
+  "version": "1.0",
+  "description": "Transforms Nest video URLs into downloadable links.",
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "permissions": ["activeTab", "tabs"],
+  "host_permissions": [
+    "https://video.nest.com/*",
+    "https://clips.dropcam.com/*"
+  ],
+  "action": {
+    "default_icon": {
+      "48": "icons/icon.png"
+    },
+    "default_title": "Download Nest Video",
+    "default_popup": "popup/popup.html"
+  }
+}

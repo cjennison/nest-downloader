@@ -1,0 +1,27 @@
+/* popup/popup.css */
+body {
+  font-family: Arial, sans-serif;
+  min-width: 200px;
+  padding: 10px;
+}
+
+#content {
+  text-align: center;
+}
+
+#status {
+  margin-bottom: 10px;
+}
+
+#download a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #4285f4;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#download a:hover {
+  background-color: #3367d6;
+}
