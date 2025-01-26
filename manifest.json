@@ -17,5 +17,10 @@
     },
     "default_title": "Download Nest Video",
     "default_popup": "popup/popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{ed7716b3-77ee-4cfd-84f9-96a6462ed439}"
+    }
   }
 }
